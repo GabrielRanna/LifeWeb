@@ -1,0 +1,27 @@
+funcao
+	id
+	nome
+
+
+funcionario
+	data_cadastro
+	funcao_id (chave estrangeira -> 'funcao')
+	id
+	nome
+
+
+rastreamento
+	data
+	funcionario_id (chave estrangeira -> 'funcionario')
+	id
+	latitude
+	longitude
+	veiculo_id (chave estrangeira -> 'veiculo')
+	velocidade
+
+veiculo
+	data_cadastro
+	id
+	nome
+	placa
+	vel_maxima	
